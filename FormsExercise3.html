@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Form Demo</title>
+</head>
+
+<body>
+	
+	<h1>Register</h1>
+
+<form>
+	<label for="First Name">First Name:</label>
+	<input name="firstName" id="First Name" type="text" placeholder="John" required>
+
+	<label for="Last Name">Last Name:</label>
+	<input name="lastName" id="Last Name" type="text" placeholder="Smith" required>
+	
+	<br>
+	
+	<label for="Male">Male</label>
+	<input name="gender" id="Male" type="radio" value="male">
+
+	<label for="Female">Female</label>
+	<input name="gender" id="Female" type="radio" value="female">
+
+	<label for="Other">Other</label>
+	<input name="gender" id="Other" type="radio" value="other">
+
+	<br>
+
+	<label for="Email">Email:</label>
+	<input name"Email" id="Email" type="email" placeholder="your email" required>
+
+	<label for="Password">Password:</label>
+	<input name="password" id="Password" type="password" placeholder="password" pattern=".{5,10}" required title="5 to 10 characters">
+
+	<br>
+	
+	Birthday:
+
+	<select name="birthday">
+		<option>Month</option>
+		<option value="Jan">Jan</option>
+		<option value="Feb">Feb</option>
+		<option value="March">March</option>
+		<option value="April">April</option>
+		<option value="May">May</option>
+		<option value="June">June</option>
+	</select>
+	<select name="birthday">
+		<option>Day</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+	</select>
+	<select name="birthday">
+		<option>Year</option>
+		<option value="1985">1985</option>
+		<option value="1986">1986</option>
+		<option value="1987">1987</option>
+		<option value="1988">1988</option>
+		<option value="1989">1989</option>
+		<option value="1990">1990</option>
+		<option value="1991">1991</option>
+	</select>
+	<br>
+
+	I agree to the terms and conditions
+	<input type="checkbox" value="checked">
+	<br>
+
+	<input type="submit">
+
+</form>
+</body>
+</html>
